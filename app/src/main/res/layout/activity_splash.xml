@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#B5E61D">
+
+        <ImageView
+            android:layout_width="221dp"
+            android:layout_height="215dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="147dp"
+            android:background="@drawable/tree_modified_2" />
+
+
+        <TextView
+
+            android:id="@+id/tvHerbalPlant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="167dp"
+            android:layout_marginStart="17dp"
+            android:text="HERBAL PLANT"
+            android:textColor="@color/colorPrimary"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/tvHerbalPlant"
+            android:layout_marginEnd="19dp"
+            android:text="DETECTOR"
+            android:textColor="@color/colorPrimary"
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/progressBarId"
+            style="@android:style/Widget.Holo.ProgressBar.Horizontal"
+            android:layout_width="280dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="59dp"
+            android:progressBackgroundTint="#FF528938"
+            android:progressTint="#FFFFFF" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
