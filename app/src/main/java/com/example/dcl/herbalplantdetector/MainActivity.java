@@ -44,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
     File photoFile = null;
     private String mCurrentPhotoPath ="";
     Uri photoURI = null;
+    ///commiting in git to save files
 
 
     @Override
@@ -82,11 +83,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     private void captureImage(){
-       /// if(ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA)!= PackageManager.PERMISSION_GRANTED){
 
-          ///  ActivityCompat.requestPermissions(this, new String[] {Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE}, 0);
-       // }
-        ///else {
             Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
             if (takePictureIntent.resolveActivity(getPackageManager())!= null){
 
@@ -109,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
             else {
                 displayMessage(getBaseContext(), "Null");
             }
-        ///}
+
     }
 
 
