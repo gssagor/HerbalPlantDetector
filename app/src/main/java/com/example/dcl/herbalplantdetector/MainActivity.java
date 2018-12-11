@@ -38,13 +38,14 @@ public class MainActivity extends AppCompatActivity {
 
     RelativeLayout rootLayout;
     private Button btnTakePhoto;
-    private Button btnGallery;
+    private Button btnGallery;            
+    private Button btnPlayQuiz;
     private int GALLERY_REQUEST_CODE=2;
     static final int CAPTURE_IMAGE_REQUEST=1;
     File photoFile = null;
     private String mCurrentPhotoPath ="";
     Uri photoURI = null;
-    ///commiting in git to save files
+
 
 
     @Override
@@ -59,7 +60,17 @@ public class MainActivity extends AppCompatActivity {
 
         btnTakePhoto = (Button)findViewById(R.id.btnTakePhoto);
         btnGallery = (Button)findViewById(R.id.btnGellary);
+        btnPlayQuiz =(Button)findViewById(R.id.btnPlayQuiz);
 
+
+
+        btnPlayQuiz.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentQuiz = new Intent(MainActivity.this,QuizActivity.class);
+                startActivity(intentQuiz);
+            }
+        });
 
 
         btnGallery.setOnClickListener(new View.OnClickListener() {

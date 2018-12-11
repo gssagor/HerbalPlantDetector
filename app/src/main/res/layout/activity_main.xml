@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/rootLayout"
-    android:background="@drawable/herbal"
+    android:background="@drawable/treenew"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -79,12 +79,12 @@
         android:layout_marginTop="510dp">
 
         <Button
-            android:id="@+id/btnPlantImages"
+            android:id="@+id/btnPlayQuiz"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
             android:background="@drawable/button"
-            android:text="Plant Images"
+            android:text="Play Quiz"
             android:textAlignment="center"
             android:textColor="@color/colorPrimary"
 

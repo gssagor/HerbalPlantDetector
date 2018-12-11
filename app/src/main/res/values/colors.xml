@@ -6,6 +6,11 @@
     <color name="colorLightGreen">#82B24D</color>
     <color name="colorLightBlue">#1187ee</color>
     <color name="colorDeepGreen">#FF528938</color>
+
+
+    <color name="colorPrimaryUser">#2d2f3c</color>
+    <color name="colorPrimarydarkUser">#030516</color>
+    <color name="colorAccentUser">#565866</color>
 </resources>
 
 

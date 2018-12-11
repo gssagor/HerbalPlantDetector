@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dcl.herbalplantdetector">
-
+    /// this tag is for camera auto focus
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
-
+    //it is for reading the storage.
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    ///it is for saving a captured image
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET" />
+    ///it is for accessing camera
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -37,7 +44,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".ViewImage" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".Login_SignupActivity" />
+        <activity android:name=".Play"></activity>
     </application>
 
 </manifest>

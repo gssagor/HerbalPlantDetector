@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "928652143278",
+    "firebase_url": "https://herbalplantdetector.firebaseio.com",
+    "project_id": "herbalplantdetector",
+    "storage_bucket": "herbalplantdetector.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928652143278:android:bc4878b6ea9b1348",
+        "android_client_info": {
+          "package_name": "com.example.dcl.herbalplantdetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928652143278-bjvnegfnm6jifodmf44t0nlp74ci7fhd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dcl.herbalplantdetector",
+            "certificate_hash": "674e31f855ab110881ecf23f5898f95ec4e3bdcf"
+          }
+        },
+        {
+          "client_id": "928652143278-q2sutjhcmgqtcirapjv5c0dtj49gu0n5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmlFMKul87v4yYK5oEL2THhmXpWxc-wSc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928652143278-q2sutjhcmgqtcirapjv5c0dtj49gu0n5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
